@@ -1,16 +1,18 @@
 # PDF to Excel Converter
 
+[![Build Status](https://travis-ci.com/duttabhishek0/pdf2excel.svg?branch=main)](https://travis-ci.com/duttabhishek0/pdf2excel)
+[![GitHub license](https://img.shields.io/github/license/duttabhishek0/pdf2excel)](https://github.com/duttabhishek0/pdf2excel/blob/main/LICENSE)
+
+
 This is a Python application that allows you to convert PDF files to Excel spreadsheets.
 
 ## Installation
-There are two ways to use the application, either by using the release files or building it from source
 
-### Using the release files
+1. Clone the repository to your local machine.
+2. Install the required dependencies using pip: `pip install -r requirements.txt`
+3. Run the application: `python ui/main_window.py`
 
-1. Download the latest release from the [release page](https://github.com/duttabhishek0/pdf2excel/releases/tag/v1.0.0)
-2. Double-click the installer file and follow the prompts to install the application.
-
-### Build from Source
+## Build from Source
 
 Alternatively, you can build an executable using PyInstaller:
 To build the application from source, follow these steps:
@@ -59,3 +61,10 @@ If you would like to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Test - Passing
+
+If you are building from source, and have made some changes, make sure to run the tests once, to know if the changes made takes the application to a safe state or not. If the former happens, then it will pass the test, and the output will be like this:
+
+
+![Screenshot from 2023-04-02 02-06-30](https://user-images.githubusercontent.com/56694152/229315310-49beeefb-d069-47b2-ae95-7aa2b0594426.png)
